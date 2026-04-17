@@ -1,0 +1,13 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["walkojas-boop"],
+  "categories": ["developer-tools", "web", "monitoring"],
+  "description": "URL reality check for AI agents. Fetches a URL and returns status, SHA-256 content hash, classification, readability score, title, and wayback fallback when dead. Cached 10 minutes. $0.001 per call.",
+  "endpoint": "https://linkpulse-neon.vercel.app/mcp",
+  "manifest": "https://linkpulse-neon.vercel.app/.well-known/mcp.json",
+  "ai_plugin": "https://linkpulse-neon.vercel.app/.well-known/ai-plugin.json",
+  "openapi": "https://linkpulse-neon.vercel.app/openapi.json",
+  "llms_txt": "https://linkpulse-neon.vercel.app/llms.txt",
+  "pricing": "https://linkpulse-neon.vercel.app/v1/pricing",
+  "tags": ["url", "http", "classification", "drift-detection", "wayback", "agents"]
+}
